@@ -6,3 +6,5 @@ This is a module which runs with the "Smart Core" https://github.com/smartwebtoo
 ### Release 1.0.1 (upcoming)
 - add config file for configure timezone and more
 - config value for changing the format and style of the widget
+
+## Config of the module
