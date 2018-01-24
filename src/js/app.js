@@ -11,8 +11,8 @@
     function updateWidget() {
         var dateTime = new Date();
 
-        var time = dateTime.getHours() + ':' + dateTime.getMinutes() + ':' + dateTime.getSeconds();
-        var date =  dateTime.getDate() + '.' + (dateTime.getMonth()+1) + '.' + dateTime.getFullYear();
+        var time = ('0' + dateTime.getHours()).slice(-2) + ':' + ('0' + dateTime.getMinutes()).slice(-2) + ':' + ('0' + dateTime.getSeconds()).slice(-2);
+        var date =  ('0' + dateTime.getDate()).slice(-2) + '.' + ('0' + (dateTime.getMonth()+1)).slice(-2) + '.' + dateTime.getFullYear();
 
         $('.smart-clock .current-time').html(time);
         $('.smart-clock .current-date').html(date);
