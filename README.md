@@ -3,6 +3,6 @@ This is a module which runs with the "Smart Core" https://github.com/smartwebtoo
 # Release Notes
 ### Release 1.0.0
 - basic module for showing the actual time
-### Release 1.0.1
+### Release 1.0.1 (upcoming)
 - add config file for configure timezone and more
 - config value for changing the format and style of the widget
